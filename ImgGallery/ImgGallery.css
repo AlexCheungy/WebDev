@@ -1,0 +1,25 @@
+#image {
+    margin: 5px;
+    border:1px;
+    border-color: cornflowerblue;
+    width: 180px;
+    float:left;
+}
+
+#image a img {
+    width:100%;
+    height:auto;
+}
+
+#image:hover {
+    border: 1px;
+    border-style: solid;
+    border-color:coral;
+}
+
+#Desc {
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    font-family: Courier;
+}

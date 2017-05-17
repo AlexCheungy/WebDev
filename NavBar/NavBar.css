@@ -6,7 +6,7 @@ ul {
 
 ul li a {
     background-color: #4caf50;
-    display:block;
+    display: block;
     width: 140px;
     border: 1px solid #fff;
     padding: 13px;
@@ -18,9 +18,9 @@ ul li a {
 }
 
 ul li {
-    float:left;
+    float: left;
 }
 
 ul li a:hover {
-    color:black;
+    color: black;
 }
