@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> Basic Form </title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Basic Form</legend>
+            <label> FirstName: </label>
+            <input type="text">
+            <br>
+            <label> LastName: </label>
+            <input type="text">
+            <br>
+
+            <label>Male</label>
+            <input type="radio" name="gender" value="male">
+            <label>Female</label>
+            <input type="radio" name="gender" value="female">
+
+            <select name="Country">
+            <option value="China">China</option>
+            <option value="US">US</option>
+            <option selected value="">Select Country</option>
+            </select>
+
+            <textarea rows="10" cols="100"></textarea>
+
+            <button type="submit">Click</button>
+
+            <br>
+            <input type="submit" value="Sign Up">
+        </fieldset>
+    </form>
+
+    <!-- Different Input Types -->
+    <input type="password">
+    <input type="search">
+    <input type="tel">
+    <br>
+    <input type="number" min="0" max="100" name="test" value="0" step="3">
+    <input type="color">
+    <input type="button" value="click">
+    <br>
+    <input type="time">
+    <input type="datetime-local">
+    <input type="date" min="2000-01-01" max="2017-05-02" value="2014-05-16">
+    <input type="month">
+    <br><br><br>
+
+    <!-- Form Attributes -->
+    <form method="POST" accept-charset="utf-8" enctype="multipart/form-data">
+        <input type="text" name="Only5" placeholder="Only 5 Char" maxlength="5">
+        <input type="text" name="Read" value="ReadOnly Text" readonly>
+        <input type="text" name="Disabled" value="Disabled Text Box" disabled>
+        <br>
+        <input type="text" name="FirstName" placeholder="First Name" autocomplete required>
+        <input type="password" name="Pass" placeholder="password" required pattern="[A-Za-z]{5}">
+        <br>
+        <input type="file" multiple accept=".jpg" name="Picture">
+        <input type="submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+/*p, div, h1 {
+    property name: value;
+} */
+
+
+/*Priority is In Line, Internal Then External Style Sheet */
+
+body {
+    background-image: url("/Resources/test.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background: url("/Resources/test.jpg") 100% repeat fixed;
+    /*background-position*/
+}
+
+p {
+    color: aqua;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-indent: 50px;
+    line-height: 30px;
+    word-spacing: .5px;
+    direction: ltr;
+    font-family: monospace, sans-serif, "times new roman";
+    font-size: 12px;
+    /*1em = 16px */
+    font-style: italic;
+    font-weight: bolder;
+    font-variant: normal;
+    /* Margins Top, Right, Bottom, Left */
+    /* Space Outside the Border */
+    margin: 50px 40px 30px 100px;
+    /*Padding Space Inside the Border
+    Top, Right, Bottom, Left */
+    padding: 50px 40px 30px 100px;
+}
+
+
+/* CSS for Class Declaration */
+
+.Second {
+    color: dodgerblue;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: indianred;
+    outline: 3px solid green;
+}
+
+ul, li {
+    list-style-type: none;
+    color: whitesmoke;
+}
