@@ -1,4 +1,5 @@
 div {
+    float: left;
     width: 400px;
     height: 400px;
     border: 1px;
@@ -10,10 +11,27 @@ div {
 
 #Rounded {
     border-radius: 50%;
-    
     /* 
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px */
+}
+
+#Box {
+    height: 200px;
+    width: 300px;
+    border: 10px;
+    border-style: solid;
+    border-color: chartreuse;
+    box-sizing: border-box;
+}
+
+#Grad {
+    width: 500px;
+    height: 300px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background: repeating-linear-gradient(to left top, red, blue, cyan, yellow );
 }
