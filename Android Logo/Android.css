@@ -60,5 +60,40 @@ div div {
     width: 220px;
     height:200px;
     border-bottom-right-radius: 15%;
-    border-bottom-left-radius: 15%
+    border-bottom-left-radius: 15%;
+}
+
+.leftArm, .leftLeg, .rightArm, .rightLeg {
+    width: 50px;
+    position: absolute;
+    
+}
+
+.leftArm, .rightArm {
+    height: 165px;
+    border-radius: 25px;
+    top: 5px;
+}
+
+.leftArm {
+    left: -57px;
+}
+
+.rightArm {
+    right: -57px;
+}
+
+.leftLeg, .rightLeg {
+    height: 90px;
+    top: 190px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.rightLeg {
+    right: 40px;
+}
+
+.leftLeg {
+    left: 40px;
 }
