@@ -9,6 +9,9 @@ div {
 div div {
     background: #A4CA39;
     position: relative;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 .Android {
