@@ -11,7 +11,7 @@ body {
 
 h1,
 h2 {
-    color: rgb(26, 96, 222);
+    color:#7A9EB1;
 }
 
 h1 {
@@ -27,8 +27,66 @@ h2 {
 .main-text {
     margin-bottom: 20px;
     text-align: justify;
+    color: #393E46;
 }
 
 .author-text {
     font-size: 22px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
+.container {
+    width:1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.blog-post {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+}
+
+.other-posts {
+    width: 25%;
+    float:left;
+}
+
+.author-box {
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color:#415865; 
+    padding-top: 35px;
+}
+
+.clearfix:after {
+    content: "";
+    display:table;
+    clear: both;
+}
+
+.other {
+    margin-bottom: 40px;
+}
+
+.author-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+.blog-post img {
+    height: 150px;
+    width: auto;
+}
+
+.date {
+    position: absolute;
+    top: 10px;;
+    right: 30px;
 }
