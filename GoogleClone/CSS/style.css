@@ -4,9 +4,39 @@
     box-sizing: border-box;
 }
 
+li {
+    display:inline;
+    padding-right: 20px;
+}
+
+li a {
+    color: #000;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#SignIn {
+    background-color: #4285F4;
+    height: 30px;
+    width: 60px;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+}
+
+header {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 30px;
+}
 
 body {
     font-family: arial, sans-serif;
+    font-size: 13px;
 }
 
 footer {
@@ -14,10 +44,14 @@ footer {
     border-top: 1px;
     border-top-style: solid;
     border-top-color: #E4e4e4;
-    position: absolute;
+    position: fixed;
     height: 35px;
     width: 100%;
     bottom: 0;
     line-height: 40px;
 }
 
+.LeftFoot,
+.RightFoot {
+    float: left;
+}
