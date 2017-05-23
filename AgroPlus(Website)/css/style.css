@@ -1,0 +1,50 @@
+
+body {
+    background: url(../images/body-bg.gif) 50% 0;
+    font: 12px/18px arial;
+    color: #717171;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: -1;
+}
+
+main {
+    background: url(../images/main-bg.jpg) no-repeat center 0;
+    min-height: 100%;
+    z-index: 1;
+}
+
+header {
+    position: relative;
+    width: 950px;
+    margin: 0px auto;
+    padding-top: 80px;
+    background: url(../images/slide-1.jpg) no-repeat center 80px;;
+}
+
+.Inner {
+    background: url(../images/header-bg.png);
+    padding-top: 26px;
+    padding-left: 40px;
+    padding-bottom: 25px;
+    padding-right: 40px;
+    z-index: 2;
+}
+
+.Logo {
+    display: inline-block;
+    padding: 0;
+}
+
+.Logo a {
+    position: relative;
+    background: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 58px;
+    width: 187px;
+    display: block;
+    overflow: hidden;
+    text-indent: -99em;
+}
