@@ -88,3 +88,12 @@ footer {
     bottom: 0;
     line-height: 40px;
 }
+
+.LeftFoot {
+ float: left;
+    padding-left: 20px;
+}
+
+.RightFoot {
+    float: right;
+}
