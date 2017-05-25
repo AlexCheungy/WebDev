@@ -1,4 +1,16 @@
+/*Fonts-----------------------------------------------------------*/
+@font-face {
+    font-family: 'open sans';
+    src: url("OpenSans-Regular.ttf");
+}
 
+@font-face {
+    font-family: 'passion one';
+    src: url("PassionOne-Regular.otf");
+}
+/*-----------------------------------------------------------------*/
+
+/* Body and Main---------------------------------------------------*/
 body {
     background: url(../images/body-bg.gif) 50% 0;
     font: 12px/18px arial;
@@ -6,21 +18,23 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
-    z-index: -1;
 }
 
 main {
     background: url(../images/main-bg.jpg) no-repeat center 0;
     min-height: 100%;
-    z-index: 1;
 }
 
+/*----------------------------------------------------------------*/
+
+/* Header---------------------------------------------------------*/
 header {
     position: relative;
     width: 950px;
     margin: 0px auto;
     padding-top: 80px;
-    background: url(../images/slide-1.jpg) no-repeat center 80px;;
+    background: url(../images/slide-1.jpg) no-repeat center 80px;
+    z-index: 2;
 }
 
 .Inner {
@@ -29,6 +43,7 @@ header {
     padding-left: 40px;
     padding-bottom: 25px;
     padding-right: 40px;
+    position: relative;
     z-index: 2;
 }
 
@@ -47,4 +62,77 @@ header {
     display: block;
     overflow: hidden;
     text-indent: -99em;
+}
+/* --------------------------------------------------------------*/
+
+/* Navagation Bar -----------------------------------------------*/
+nav {
+    float: right;
+    padding-top: 12px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul {
+    position: absolute;
+    top: -999em;
+    left: 0;
+    display: none;
+    width: 185px;
+    min-height: 28px;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    margin-right: 28px;
+    margin-left: 28px;
+}
+
+.menu li a {
+    text-decoration: none;
+    display: block;
+    font-family: 'open sans';
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFF;
+    padding-top: 10px;
+}
+
+.menu li a:hover,
+.menu li.current a {
+    color: #AFAA9B;
+    background: url(../images/nav-active.png);
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+/*---------------------------------------------------------------*/
+
+/*Picture Slider ------------------------------------------------*/
+.slider {
+    position: relative;
+    z-index: 1;
+    height: 402px;
+}
+
+.mp-slider {
+    position: absolute;
+    top: -109px;
+    left: 0;
+    right: 0;
+    bottom: 511px;
+}
+
+.mp-prev, .mp-next {
+    position: absolute;
+    width: 31px;
+    height: 402px;
+    bottom: 0;
+    z-index: 3;
 }
