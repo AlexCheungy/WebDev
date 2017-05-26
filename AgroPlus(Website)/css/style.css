@@ -136,3 +136,26 @@ ul {
     bottom: 0;
     z-index: 3;
 }
+
+.mp-prev {
+    left: 0;
+    background: url(../images/slider-prev.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.mp-prev:hover {
+    background-position: right 0;
+}
+
+.mp-next {
+    right: 0;
+    background: url(../images/slider-next.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.mp-next:hover {
+    background-position: right 0;
+}
+/*---------------------------------------------------------------*/
