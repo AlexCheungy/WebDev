@@ -159,3 +159,18 @@ ul {
     background-position: right 0;
 }
 /*---------------------------------------------------------------*/
+
+/*Content--------------------------------------------------------*/
+.content-bg {
+    background: url(../images/body-bg.gif);
+    padding: 35px 20px 43px; 20px;
+}
+
+/*Headings-------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    color: #FFF;
+    padding: 0;
+    font-weight: normal;
+    margin: 0;
+    font-family: 'passion one';
+}
