@@ -71,6 +71,18 @@ h3 {
     margin-bottom: 15px;
 }
 
+.cities a:link, .cities a:active {
+    color: #E67E22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #E67E22;
+    transition: border-bottom 0.5s, color 0.5s;
+}
+
+.cities a:hover, .cities a:visited {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
 
 /************************************************************************************************************/
 
@@ -315,3 +327,27 @@ header {
 
 
 /************************************************************************************************************/
+
+.cities .box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.cityFeat {
+    margin-bottom: 5px;
+}
+
+.iconSmall {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #E67E22;
+    font-size: 120%;
+    
+    /* Text Aligning */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+}
