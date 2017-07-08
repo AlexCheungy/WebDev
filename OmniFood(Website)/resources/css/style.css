@@ -97,6 +97,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment:fixed;
 }
 
 .hero-textBox {
@@ -350,4 +351,48 @@ header {
     vertical-align: middle;
     margin-top: -5px;
     margin-right: 10px;
+}
+
+/************************************************************************************************************/
+
+
+/*Testimonials***********************************************************************************************/
+
+
+/************************************************************************************************************/
+.testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../pics/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.testimonials blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.testimonials cite {
+    font-size: 95%;
+    margin-top: 25px;
+    display: block;
+}
+
+.testimonials blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+
+.testimonials cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
