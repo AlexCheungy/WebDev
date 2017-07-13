@@ -21,7 +21,10 @@ section {
     padding: 80px 0;
 }
 
-.clearfix {zoom:1}
+.clearfix {
+    zoom: 1
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -29,6 +32,7 @@ section {
     height: 0;
     visibility: inherit;
 }
+
 
 /*Headings***************************************************************************************************/
 
@@ -71,7 +75,8 @@ h3 {
     margin-bottom: 15px;
 }
 
-.cities a:link, .cities a:active {
+.cities a:link,
+.cities a:active {
     color: #E67E22;
     text-decoration: none;
     padding-bottom: 1px;
@@ -79,10 +84,12 @@ h3 {
     transition: border-bottom 0.5s, color 0.5s;
 }
 
-.cities a:hover, .cities a:visited {
+.cities a:hover,
+.cities a:visited {
     color: #555;
     border-bottom: 1px solid transparent;
 }
+
 
 /************************************************************************************************************/
 
@@ -97,7 +104,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment:fixed;
+    background-attachment: fixed;
 }
 
 .hero-textBox {
@@ -265,6 +272,7 @@ header {
     opacity: 1;
 }
 
+
 /************************************************************************************************************/
 
 
@@ -312,14 +320,15 @@ header {
 }
 
 .HIWSteps:last-of-type {
-    margin-bottom: 80px;    
+    margin-bottom: 80px;
 }
 
-.buttonApp img{
+.buttonApp img {
     height: 50px;
     width: auto;
     margin-right: 10px;
 }
+
 
 /************************************************************************************************************/
 
@@ -345,13 +354,13 @@ header {
     text-align: center;
     color: #E67E22;
     font-size: 120%;
-    
     /* Text Aligning */
     line-height: 120%;
     vertical-align: middle;
     margin-top: -5px;
     margin-right: 10px;
 }
+
 
 /************************************************************************************************************/
 
@@ -360,6 +369,7 @@ header {
 
 
 /************************************************************************************************************/
+
 .testimonials {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../pics/back-customers.jpg);
     background-size: cover;
